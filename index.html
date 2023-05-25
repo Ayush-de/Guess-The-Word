@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Login- Guess The Word</title>  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" type="text/css" href="game.css">
+        <script src="game_login.js"></script>
+    </head>
+
+    <body>
+        <center>
+            <h1 style="font: size 45px; font-family: Georgia, 'Times New Roman', Times, serif;">LOGIN</h1>
+            <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+                <h3 style="color: darkblue; font-size: 30px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style:italic;">Player 1</h3>
+                <label>User Name : </label>
+                <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name" style="color: firebrick;">
+            </div>
+            <br>
+            <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+                <h3  style="color: darkblue; font-size: 30px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style:italic;">Player 2</h3>
+                <label>User Name : </label>
+                <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name"style="color: firebrick;">
+            </div>
+            <br>
+            <button style="width:30%; border-radius: 15px; background-color: crimson; font-size: 25px;"onclick="add_user()">LOGIN</button>
+        </center>
+    </body>
+</html>
